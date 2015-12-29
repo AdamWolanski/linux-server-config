@@ -18,23 +18,9 @@
         3.4 Save session & Open
 
  # Linux config
-    1. TMUX
-        1.1 $ cd /etc
-        1.2 Open tmux.conf (create if not exist)
-        1.3 Copy & Save:
-            set -g mouse-resize-pane on
-            set -g mouse-select-pane on
-            set -g mouse-select-window on
-            set -g repeat-time 0
-            set -g terminal-overrides 'xterm*:smcup@:rmcup@'
-            set -g history-limit 1000000
-
-            set -g set-titles on
-            set -g set-titles-string '#H -> tmux:#I:#P -> #W'
-
-            setw -g mode-keys vi
-            setw -g mode-mouse on
-            setw -g utf8 on
+    1. TMUX & Bash Extension
+	1.1 chmod +x bash_ext.sh
+	1.2 ./bash_ext.sh
     2. Fonts & Themes
         2.1 sudo apt-get install gtk2-engines-nodoka
         2.2 sudo apt-get install fonts-dejavu
