@@ -27,6 +27,7 @@ function ToggleWhitespace()
 endfunction
 
 "enable/disable pastemode
+noremap <C-P> <Esc>:call TogglePasteMode()<CR>
 let g:pm = 0
 function TogglePasteMode()
     if !g:pm

@@ -34,3 +34,7 @@
     https://github.com/marcopaganini/termschool-vim-theme
     https://github.com/VundleVim/Vundle.vim
     https://help.github.com/articles/generating-an-ssh-key/
+
+    * Git config:
+        git config --global user.name "John Doe"
+        git config --global user.email johndoe@example.com
