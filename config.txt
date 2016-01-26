@@ -17,7 +17,7 @@
         3.3 Host Name -> your local IP, Port: 22
         3.4 Save session & Open
 
- # Linux config
+# Linux config
     1. TMUX & Bash Extension
 	1.1 chmod +x bash_ext.sh
 	1.2 ./bash_ext.sh
@@ -28,3 +28,9 @@
             gtk-theme-name="Nodoka-Midnight"
         2.4* Eclipse is running by gtk3 by default - ./eclipse SWT_GTK3=0
             https://wiki.archlinux.org/index.php/GTK%2B
+
+# Usefull links:
+    https://github.com/Valloric/YouCompleteMe#installation
+    https://github.com/marcopaganini/termschool-vim-theme
+    https://github.com/VundleVim/Vundle.vim
+    https://help.github.com/articles/generating-an-ssh-key/
